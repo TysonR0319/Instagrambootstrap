@@ -1,0 +1,48 @@
+#modal-button{
+    border: none;
+}
+
+
+textarea{
+    width: 466px;
+}
+.icon-container{
+    display: flex
+}
+.bi-geo-alt, .bi-camera{
+    margin: 5px;
+    height: 37px;
+    width: 37px;
+    padding-left: 5px;
+    padding-bottom: 7px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#explore-view, .col-4{
+    height: 300px;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.nav-link, .nav-item{
+    color: gray;
+    border: none;
+    background-color: transparent;
+}
+.nav-item:focus, .nav-link:focus{
+    outline: none;
+    border: none;
+    color: white;
+    background-color: gray;
+    border-radius: 15%;
+}
+.nav-item:hover, .nav-link:hover{
+    background-color: rgba(100, 100, 100, 0.5);
+    color: white;
+}
+#explore-link{
+margin-right: 2px;
+}
+#scroll-link{
+margin-left: 2px;
+}
