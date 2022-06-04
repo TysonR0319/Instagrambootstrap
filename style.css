@@ -1,6 +1,9 @@
 #modal-button{
     border: none;
 }
+.container-fluid{
+    padding: 0%;
+}
 
 
 textarea{
@@ -50,3 +53,52 @@ margin-left: 2px;
     border: 1px solid red;
     width: 626px;
 }
+
+
+
+
+
+
+
+
+
+.tab-content{
+    font-family: Helvetica, sans-serif;
+    max-width: 50%;
+    /* margin: 0 auto; */
+    background-color: white;
+}
+.header{
+    display: flex;
+    color: rgb(122, 115, 115);
+
+}
+
+.text-muted{
+    padding: 10px 10px 3px 10px;
+}
+.tab-content {
+border-radius: 5px;
+
+}
+#fotopost{
+    width: 100%;  
+}
+
+.footer{
+padding: 15px;
+text-align: justify;
+
+}
+.iconospost {
+     display: flex;
+     justify-content:space-between;  
+     align-items: baseline;
+     margin-bottom: 20px;
+ 
+}
+
+
+.text-dark{
+    text-align: justify;
+} 
